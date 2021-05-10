@@ -1,0 +1,5 @@
+<div class="pdf_list">
+    <span *ngFor="let file of files" (click)="openDialPdfView(file)" class="list">
+        {{file[0].name}}
+    </span>
+</div>

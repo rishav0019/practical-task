@@ -1,0 +1,17 @@
+.pdf_list{
+    margin-left: 15px;
+    
+}
+.list{
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.list:hover{
+    color: rgb(147, 101, 101);
+}
+.list:active{
+    color: black;
+    background-color: aliceblue;
+}

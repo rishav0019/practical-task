@@ -1,0 +1,4 @@
+<div class="uploadfilecontainer" (click)="fileInput.click()" appAppDragDrop (onFileDropped)="uploadFile($event)" style="width: 100px;height: 110px;">
+    <input hidden type="file"  accept="application/pdf" #fileInput (change)="uploadFile($event.target.files)" >
+  </div>
+   
